@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>b8a6-build-phone-tube</title>
     <!--tailwind link -->
+    <script src="https://kit.fontawesome.com/ec9899d17c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
    
 </head>
 <body>
     <!----------------------Nav bar is start here -------------------------------->
     <header id="nav-bar">
+      <div class="grid text-center mx-auto my-4 md:grid-cols-3 text-center mx-16 my-8 lg:grid-cols-3 text-center mx-32 my-10">
+        <div class="flex m-4">
+          <i class="fa-solid fa-circle-play text-red-600 text-4xl mx-12 md:mx-8 lg:mx-4"></i>
+          <h1 class="font-bold text-4xl mx-4  lg:mx-4"><span class="text-red-600 text-4xl">PH</span> Tube</h1>
+        </div>
+        <div>
+          <button id="button " class="text-2xl m-4 bg-neutral-300 p-4 rounded-md active:bg-red-600" onclick="collection2()" >Sort by views </button>
+        </div>
 
+        <div>
+          <button id="butto2 " class="text-2xl m-4 bg-red-500 p-4 rounded-md" onclick="blogButton()">Blog</button>
+        </div>
+      </div>
     </header>
      <!---------------------Nav bar is end here--------------------------------- -->
      <!---------------------main section is start  here--------------------------------- -->
@@ -23,10 +37,11 @@
       </section>
        <!-------------------card section start is here------------------------------------------>
         <!-------------------card1111111111111111111111111------------------------------------------>
-        <section id="card" class="w-full gap-2 grid grid-cols-1 md:grid-cols-2  gap-5   lg:grid-cols-4  gap-10 m-5  ">
-     
-    </section>
+    <section id="card" class="grid grid-col mx-auto md:grid-cols-2  lg:grid-cols-4 w-full  gap-10 m-4">
 
+
+    </section>
+        
         <!-------------------card section end is here------------------------------------------>
     </main>
      <!---------------------main section is end here--------------------------------- -->
